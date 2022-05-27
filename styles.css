@@ -1,0 +1,67 @@
+* {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#movies {
+  justify-content: center;
+}
+
+body {
+  background: url("./movie-theater.png") no-repeat center center/cover;
+}
+
+img:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+#header {
+  background: #474747;
+  color: white;
+  padding: 0 16px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  box-shadow: 0px 2px 5px #555;
+}
+#header .left,
+#header .navbar,
+#header .right {
+  display: inline-block;
+}
+#header .left,
+#header .right {
+  width: 20%;
+}
+#header .navbar {
+  width: 60%;
+}
+#header .left {
+  float: left;
+}
+#header .right {
+  text-align: right;
+  float: right;
+  margin-top: 1vh;
+  vertical-align: bottom;
+}
+
+br {
+  line-height: 1px;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+th,
+td {
+  padding-left: 1em;
+  padding-right: 1em;
+}
